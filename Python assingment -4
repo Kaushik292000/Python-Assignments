@@ -1,0 +1,48 @@
+1)  str= "Hello World"
+print(len(str))
+
+
+2)  def char_frequency(str1):
+     dict = {}
+     for n in str1:
+        keys = dict.keys()
+        if n in keys:
+            dict[n] += 1
+        else:
+            dict[n] = 1
+     return dict
+   print(char_frequency('google.com'))
+
+
+
+
+3) def string_both_ends(str):                                                    
+    if len(str) < 2:
+    return ''
+
+    return str[0:2] + str[-2:]
+
+   print(string_both_ends('thisisniceone'))
+   print(string_both_ends('th'))
+   print(string_both_ends('t'))
+
+
+def string_both_ends(str):
+  if len(str) < 2:
+    return ''
+
+  return str[0:2] + str[-2:]
+
+print(string_both_ends('abab'))
+print(string_both_ends('ab'))
+print(string_both_ends('a'))
+
+def string_both_ends(str):
+  if len(str) < 2:
+    return ''
+
+  return str[0:2] + str[-2:]
+
+print(string_both_ends('f'))
+print(string_both_ends('f'))
+print(string_both_ends('f'))
